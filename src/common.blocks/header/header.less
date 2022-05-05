@@ -1,0 +1,176 @@
+@import (reference) '../../less/variables.less';
+
+.header {
+    width: 100%;
+    padding: 35px 195px 0 195px;
+    
+    &__box {
+        display: flex;
+        justify-content: space-between;  
+    }
+    
+    &__logo {
+        display: flex;
+        justify-content: space-between;   
+    }
+    
+    svg {
+        margin-top: 12px;
+    }
+    
+    &__text {
+        width: 230px;
+        font-weight: 400;
+        margin-left: 44px;
+        font-size: 15px;
+        border-left: 1px solid rgba(51, 26, 47, 0.5);;
+        padding-left: 25px;
+    }
+    
+    
+    
+    &__analitics {
+        padding-top: 20px;
+        h2 {
+            font-size: 24px;
+            font-weight: 400;
+        }
+        svg {
+            margin-left: 5px;
+        }
+    }
+    
+    &__education {
+        padding-top: 20px;
+        h2 {
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+    
+    &__number {
+        padding-top: 10px;
+        h2 {
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+    
+    &__button {
+        padding-top: 10px;
+        button {
+            padding: 5px 32px;
+            font-size: 16px;
+            background-color: #CF51CE;
+            border-radius: 12px;
+            color: #fff;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 2%;
+            border: none;
+            cursor: pointer;
+            svg {
+                margin-right: 2px;
+            }  
+        }
+        
+    }
+}
+
+@media screen and (max-width: @bp-xl) {
+    .header { 
+        padding: 35px 40px;
+        &__logo {
+            display: flex;
+            justify-content: space-between;
+            
+            svg {
+                width: 187px;
+                height: 44px;
+            }
+        }
+        
+        &__text {
+            width: 230px;
+            font-weight: 400;
+            margin-left: 44px;
+            font-size: 10px;
+            border-left: 1px solid rgba(51, 26, 47, 0.5);;
+            padding-left: 25px;
+        }
+        
+        &__analitics {
+            h2 {
+                font-size: 18px;
+                font-weight: 400;
+            }
+            svg {
+                margin-left: 5px;
+            }
+        }
+        
+        &__education {
+            h2 {
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        
+        &__number {
+            h2 {
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        
+        &__button {
+            padding-top: 10px;
+            button {
+                padding: 5px 24px;
+                font-size: 16px;
+                background-color: #CF51CE;
+                border-radius: 12px;
+                color: #fff;
+                font-weight: 700;
+                line-height: 35px;
+                letter-spacing: 2%;
+                border: none;
+                cursor: pointer;
+                svg {
+                    margin-right: 2px;
+                }  
+            }
+            
+        }
+    }
+    
+    .arrow {
+        width: 9px;
+        height: 9px;
+    }
+}
+    
+    
+
+
+.logo {
+    width: 241px;
+    height: 58px;
+}
+
+.mobile {
+    width: 19px;
+    height: 19px;
+    fill: #000;
+}
+
+.icon {
+    width: 23px;
+    height: 15px;
+    fill: #fff;
+}
+
+.arrow {
+    width: 15px;
+    height: 10px;
+}
